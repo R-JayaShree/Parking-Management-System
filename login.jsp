@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+	<link rel="icon" href="park.png">
+	<title>Parking-Login</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="logincss.css">
+</head>
+<body>
+
+
+<div class="videobg">
+		<video autoplay loop muted>
+		  <source src="video.mp4" type="video/mp4">
+		</video>
+	  </div>
+	  
+<div class="container">
+
+	<!--<div class="just" style="color:white;float:left;background-color: rgba(0,0,0,0.5) !important;
+	width:100px;text-align: center;margin-top:1%;padding-top: 1%;margin-left: -11%;
+	font-family: 'Numans', sans-serif;"><h3><a href="design.html" style=color:white;text-decoration:none;> HOME</h3></a></div>-->
+	
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header">
+				<h3>Sign In</h3>
+				
+			</div>
+			<div class="card-body">
+				<form action="connect1.jsp" method="post">
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+						<input type="text" name="username"  autocomplete="off" class="form-control" placeholder="username" required>
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+						<input type="password" name="password"  autocomplete="off" class="form-control" placeholder="password" required>
+					</div>
+					<div class="row align-items-center remember" >
+					
+					<div class="d-flex justify-content-center links"style="color:white;text-decoration:none;margin-top:-5%;margin-left:10px;">
+						Another Way to login :
+					</div>
+					<div class="c" style="margin-top:7%;">
+						<a href="loginotp.jsp" style="color:blue;text-decoration:none;margin-left:-145px;">Send OTP</a></div>
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Login" style="margin-top:-15px;" class="btn float-right login_btn">
+					</div>
+				</form>
+			</div>
+			<div class="card-footer">
+				<div class="d-flex justify-content-center links" style="color:white;">
+					Don't have an account?<a href="index.jsp" style="color:black ;text-align:center;width: 80px; background-color:grey; border: 0 !important ;border-radius:5px;";>Sign Up</a>
+				</div>
+				<div class="d-flex justify-content-center">
+					<a href="Forgot-Password.jsp"style="color:red">Forgot your password?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
